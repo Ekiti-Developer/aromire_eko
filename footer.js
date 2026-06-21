@@ -24,6 +24,13 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
+      <div class="footer-col">
+        <h4>Get Involved</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
       
       
     </div>
