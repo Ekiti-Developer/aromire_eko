@@ -60,7 +60,7 @@ nav {
   transition: color 0.2s;
 }
 .nav-links a:hover { color: var(--gold); }
-.active-link {
+.nav-links a.active-link {
   color: var(--gold) !important;
   font-size: 1rem !important;
   text-decoration: underline;
