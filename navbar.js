@@ -10,7 +10,7 @@
     { label: "About",    href: "about.html" },
     { label: "Programs", href: "programs.html" },
     { label: "Impact",   href: "impact.html" },
-    { label: "Contact",  href: "contact.html" },
+   
   ];
 
   // Determine the active page by matching the current filename
