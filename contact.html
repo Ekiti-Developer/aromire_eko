@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Aromire-Éko Empowerment Foundation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<script src="navbar.js"></script>
+<div style="padding-top:72px">
+  <section id="contact" style="padding-top:80px">
+    <div class="contact-inner">
+      <p class="section-eyebrow">Reach Out</p>
+      <div class="gold-divider" style="margin:0 auto 1.5rem"></div>
+      <h2 class="section-title light">Let's Build Together</h2>
+      <p class="section-lead light" style="margin:0 auto">Whether you want to donate, volunteer, partner, or just learn more — we'd love to hear from you.</p>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-field">
+          <label>First Name</label>
+          <input type="text" placeholder="Your first name"/>
+        </div>
+        <div class="form-field">
+          <label>Last Name</label>
+          <input type="text" placeholder="Your last name"/>
+        </div>
+        <div class="form-field">
+          <label>Email Address</label>
+          <input type="email" placeholder="you@example.com"/>
+        </div>
+        <div class="form-field">
+          <label>Phone (Optional)</label>
+          <input type="tel" placeholder="+234 ..."/>
+        </div>
+        <div class="form-field full">
+          <label>I'm interested in</label>
+          <select>
+            <option>Donating to the Foundation</option>
+            <option>Volunteering</option>
+            <option>Corporate / NGO Partnership</option>
+            <option>Learning More About Programs</option>
+            <option>Media / Press Enquiry</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-field full">
+          <label>Message</label>
+          <textarea placeholder="Tell us how you'd like to get involved or ask us anything..."></textarea>
+        </div>
+        <div class="form-submit-wrap">
+          <button type="submit" class="btn-primary" style="border:none;cursor:pointer;font-size:0.95rem;padding:15px 40px">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</div>
+
+ <script src="footer.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
