@@ -10,7 +10,7 @@
     { label: "About",    href: "about.html" },
     { label: "Programs", href: "programs.html" },
     { label: "Impact",   href: "impact.html" },
-   
+    { label: "Contact",  href: "contact.html" },
   ];
 
   // Determine the active page by matching the current filename
@@ -31,12 +31,34 @@
       <span>Empowerment Foundation</span>
     </div>
   </a>
-  <ul class="nav-links">
+  <ul class="nav-links" id="nav-links">
     ${navItems}
     <li><a href="contact.html" class="nav-cta">Get Involved</a></li>
   </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 </nav>`;
 
   // Inject nav as the first element inside <body>
   document.body.insertAdjacentHTML("afterbegin", navHTML);
+
+  // Hamburger toggle
+  const hamburger = document.getElementById("hamburger");
+  const navLinks  = document.getElementById("nav-links");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("open");
+    hamburger.classList.toggle("active");
+  });
+
+  // Close menu when a link is clicked
+  navLinks.querySelectorAll("a").forEach(a => {
+    a.addEventListener("click", () => {
+      navLinks.classList.remove("open");
+      hamburger.classList.remove("active");
+    });
+  });
 })();
