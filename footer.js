@@ -35,10 +35,7 @@
       
     </div>
     <div class="footer-bottom"> <p class="footer-copy">© ${new Date().getFullYear()} Aromire-Éko Empowerment Foundation. All rights reserved.</p>
-      <div class="footer-legal">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Use</a>
-      </div>
+     
     </div>
   </div>
 </footer>`;
